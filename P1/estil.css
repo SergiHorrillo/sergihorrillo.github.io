@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(255, 235, 205, 0.63);
+    font-size: 24px;
+}
+table{
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}

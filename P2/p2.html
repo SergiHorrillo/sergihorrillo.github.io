@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formularis amb HTML</title>
+  </head>
+  <body>
+    <form action="/submit_form" method="post">
+      <!-- Camp de text per al nom i cognom -->
+      <label for="nomCognom">Nom i cognom:</label>
+      <input type="text" id="nomCognom" name="nomCognom" /><br /><br />
+
+      <!-- Camp numèric per a l'edat -->
+      <label for="edat">Edat:</label>
+      <input type="number" id="edat" name="edat" /><br /><br />
+
+      <!-- Àrea de text per a la pel·lícula o sèrie preferida -->
+      <label for="peliculaSerie">La teva pel·lícula/sèrie preferida:</label
+      ><br />
+      <textarea
+        id="peliculaSerie"
+        name="peliculaSerie"
+        rows="4"
+        cols="50"
+      ></textarea>
+      <br /><br />
+
+      <!-- Botó d'enviament -->
+      <input type="submit" value="Enviar" />
+
+      <!-- Botó de reset -->
+      <input type="reset" value="Netejar" />
+    </form>
+  </body>
+</html>
