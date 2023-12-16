@@ -1,11 +1,11 @@
 function conversorUnitats() {
-  // Obtiene el valor en kilómetros
+  // Obtenir el valor de km
   var kilometres = document.getElementById("kilometres").value;
 
-  // Convierte kilómetros a millas (1 kilómetro = 0.621371 millas)
+  // Convertir km a Milles (1 km = 0.621371 milles)
   var milles = kilometres * 0.621371;
 
-  // Muestra el resultado en el campo de millas
+  // Mostrar el resultat en camp amb Id milles
   document.getElementById("milles").value = milles.toFixed(3);
 }
 
